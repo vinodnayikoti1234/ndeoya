@@ -1,0 +1,156 @@
+{
+  "Plastic Bottle": {
+    "recycle": "Rinse and place it in the plastic recycling bin.",
+    "reuse": "Use as a plant pot, bird feeder, or pencil holder.",
+    "images": [
+      {
+        "url": "images/plastic-bottle-recycle.jpg",
+        "label": "Plastic Bottle Recycling"
+      },
+      {
+        "url": "images/plastic-bottle-reuse.jpg",
+        "label": "Plastic Bottle Reuse"
+      }
+    ]
+  },
+  "Old Phone": {
+    "recycle": "Take it to an electronics recycling facility.",
+    "reuse": "Use as a dedicated music player or home security camera.",
+    "images": [
+      {
+        "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202211/e-waste-sixteen_nine.jpg?VersionId=uOUGXaSwOKrOvrMykTBD1eFpi73oT4_O",
+        "label": "Old Phone Recycling"
+      },
+      {
+        "url": "images/old-phone-reuse.jpg",
+        "label": "Old Phone Reuse"
+      }
+    ]
+  },
+  "Clothes": {
+    "recycle": "Donate to thrift stores or recycling centers.",
+    "reuse": "Turn into cleaning rags or pillow stuffing.",
+    "images": [
+      {
+        "url": "https://www.treehugger.com/thmb/aGkcy2Sf4NoNvijIdqW58iJP3dc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1279536193-562c54900c0f4813b5f23d83b61c3bca.jpg",
+        "label": "Clothes Recycling"
+      },
+      {
+        "url": "images/clothes-reuse.jpg",
+        "label": "Clothes Reuse"
+      }
+    ]
+  },
+  "Paper": {
+    "recycle": "Place in the paper recycling bin.",
+    "reuse": "Use for origami, scrapbooking, or as gift wrap.",
+    "images": [
+      {
+        "url": "images/paper-recycle.jpg",
+        "label": "Paper Recycling"
+      },
+      {
+        "url": "images/paper-reuse.jpg",
+        "label": "Paper Reuse"
+      }
+    ]
+  },
+  "Glass Bottle": {
+    "recycle": "Rinse and place it in the glass recycling bin.",
+    "reuse": "Use as a vase, candle holder, or decorative piece.",
+    "images": [
+      {
+        "url": "images/glass-bottle-recycle.jpg",
+        "label": "Glass Bottle Recycling"
+      },
+      {
+        "url": "images/glass-bottle-reuse.jpg",
+        "label": "Glass Bottle Reuse"
+      }
+    ]
+  },
+  "Cardboard Box": {
+    "recycle": "Flatten and place in the cardboard recycling bin.",
+    "reuse": "Use for organizing or as a storage box.",
+    "images": [
+      {
+        "url": "images/cardboard-box-recycle.jpg",
+        "label": "Cardboard Box Recycling"
+      },
+      {
+        "url": "images/cardboard-box-reuse.jpg",
+        "label": "Cardboard Box Reuse"
+      }
+    ]
+  },
+  "Aluminum Can": {
+    "recycle": "Rinse and place in the aluminum recycling bin.",
+    "reuse": "Use as a plant pot, coin holder, or pencil holder.",
+    "images": [
+      {
+        "url": "images/aluminum-can-recycle.jpg",
+        "label": "Aluminum Can Recycling"
+      },
+      {
+        "url": "images/aluminum-can-reuse.jpg",
+        "label": "Aluminum Can Reuse"
+      }
+    ]
+  },
+  "Old T-Shirt": {
+    "recycle": "Donate to charity or use as a rag.",
+    "reuse": "Turn into a tote bag or pillow cover.",
+    "images": [
+      {
+        "url": "images/old-tshirt-recycle.jpg",
+        "label": "Old T-Shirt Recycling"
+      },
+      {
+        "url": "images/old-tshirt-reuse.jpg",
+        "label": "Old T-Shirt Reuse"
+      }
+    ]
+  },
+  "Old Shoes": {
+    "recycle": "Donate or take to a recycling center.",
+    "reuse": "Use as planters or as a quirky display.",
+    "images": [
+      {
+        "url": "images/old-shoes-recycle.jpg",
+        "label": "Old Shoes Recycling"
+      },
+      {
+        "url": "images/old-shoes-reuse.jpg",
+        "label": "Old Shoes Reuse"
+      }
+    ]
+  },
+  "Egg Carton": {
+    "recycle": "Place in the paper recycling bin.",
+    "reuse": "Use for organizing small items or as a craft project.",
+    "images": [
+      {
+        "url": "images/egg-carton-recycle.jpg",
+        "label": "Egg Carton Recycling"
+      },
+      {
+        "url": "images/egg-carton-reuse.jpg",
+        "label": "Egg Carton Reuse"
+      }
+    ]
+  },
+  "Plastic Bags": {
+    "recycle": "Take to a plastic recycling drop-off site.",
+    "reuse": "Use as trash bags or for organizing items.",
+    "images": [
+      {
+        "url": "images/plastic-bags-recycle.jpg",
+        "label": "Plastic Bags Recycling"
+      },
+      {
+        "url": "images/plastic-bags-reuse.jpg",
+        "label": "Plastic Bags Reuse"
+      }
+    ]
+  }
+}

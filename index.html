@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recycle & Reuse Ideas</title>
+  <head>
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom right, #e6f4ea, #cde9d5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+  
+      .container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 700px;
+        width: 100%;
+      }
+  
+      h1 {
+        color: #2e7d32;
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+  
+      select {
+        padding: 12px 20px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        background-color: #f4fbf5;
+        color: #7d2e40;
+        transition: border 0.3s ease;
+      }
+  
+      select:hover {
+        border-color: #c2f508;
+      }
+  
+      .result {
+        margin-top: 30px;
+      }
+  
+      .result h2 {
+        color: #388e3c;
+        font-size: 22px;
+      }
+  
+      .image-gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
+      }
+  
+      .image-card {
+        text-align: center;
+        max-width: 160px;
+        transition: transform 0.3s ease-in-out;
+      }
+  
+      .image-card:hover {
+        transform: scale(1.05);
+      }
+  
+      .item-img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+  
+      .label {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #4e944f;
+      }
+    </style>
+  
+  
+</head>
+<body>
+
+  <div class="container">
+    <h1>Select an Item to See Recycle/Reuse Ideas</h1>
+    
+    <!-- Dropdown to select item -->
+    <select id="itemSelect">
+      <option value="">-- Choose an Item --</option>
+      <option value="Plastic Bottle">Plastic Bottle</option>
+      <option value="Old Phone">Old Phone</option>
+      <option value="Clothes">Clothes</option>
+      <option value="Paper">Paper</option>
+      <option value="Glass Bottle">Glass Bottle</option>
+      <option value="Cardboard Box">Cardboard Box</option>
+      <option value="Aluminum Can">Aluminum Can</option>
+      <option value="Old T-Shirt">Old T-Shirt</option>
+      <option value="Old Shoes">Old Shoes</option>
+      <option value="Egg Carton">Egg Carton</option>
+      <option value="Plastic Bags">Plastic Bags</option>
+    </select>
+
+    <!-- Result section to show recycling and reuse ideas with images -->
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    const itemsData = {
+      "Plastic Bottle": {
+        "recycle": "Rinse and place it in the plastic recycling bin.",
+        "reuse": "Use as a plant pot, bird feeder, or pencil holder.Reusing a plastic bottle is a simple yet powerful way to reduce environmental waste and promote sustainability. Plastic bottles, which are often discarded after a single use, can be given a second life through a variety of creative and practical applications. For instance, you can cut a bottle in half and use the bottom part as a mini plant pot for growing herbs, succulents, or flowers—ideal for small spaces like balconies or windowsills. By cutting holes in the sides and adding a stick for birds to perch on, you can convert a bottle into a DIY bird feeder, helping support local wildlife in your garden or park. If you cut and decorate the bottle neatly, it can serve as a pencil holder or desk organizer, perfect for storing pens, brushes, or scissors.Beyond these ideas, plastic bottles can also be turned into watering cans by poking holes in the cap, or used as storage containers for small items like screws, buttons, or beads. They can even be transformed into toys or art projects for kids, such as rockets, animals, or musical instruments. Reusing plastic bottles not only saves money but also significantly reduces the amount of plastic entering landfills and oceans, making a positive impact on the planet. With just a little creativity, one plastic bottle can be reused in many meaningful ways.",
+        "images": [
+          { "url": "https://cdn5.vectorstock.com/i/1000x1000/62/64/hand-putting-empty-plastic-bottle-to-recycle-bin-vector-37696264.jpg", "label": "Plastic Bottle Recycling" },
+          { "url": "https://i.ytimg.com/vi/q9yX2wb3Eaw/maxresdefault.jpg", "label": "Plastic Bottle Reuse" }
+        ]
+      },
+      "Old Phone": {
+        "re": "Take it to an electronics recycling facility.",
+        "reuse": "Use as a dedicated music player or home security camera.Reusing an old phone is a smart and eco-friendly way to give new life to a device that might otherwise sit unused in a drawer or end up in a landfill. One popular reuse is turning it into a dedicated music player. By clearing out unnecessary apps and storing your favorite songs or connecting it to a streaming service over Wi-Fi, the old phone becomes a portable, battery-efficient media player—great for the gym, car, or relaxing at home without draining your main device.Another valuable use is transforming it into a home security camera. With free apps like Alfred, Manything, or IP Webcam, your old phone can act as a motion-sensing surveillance camera. Simply place it near your front door, baby’s crib, or pet’s area and connect it to Wi-Fi. You can view live footage remotely on your current phone, giving you peace of mind without spending extra on new hardware.Additionally, old phones can serve as remote controls for smart TVs, GPS devices for cars, e-book readers, or even as dedicated alarm clocks or kitchen timers. Reusing old phones reduces electronic waste and helps maximize the lifespan of valuable technology components.",
+        "images": [
+          { "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202211/e-waste-sixteen_nine.jpg?VersionId=uOUGXaSwOKrOvrMykTBD1eFpi73oT4_O", "label": "Old Phone Recycling" },
+          { "url": "https://rukminim2.flixcart.com/image/850/1000/kwcfngw0/home-security-camera/k/i/i/1-ccduyr76-indoor-outdoor-security-camera-jronj-original-imag9fmze86d5tfx.jpeg?q=20&crop=false", "label": "Old Phone Reuse" }
+        ]
+      },
+      "Clothes": {
+        "recycle": "Donate to thrift stores or recycling centers.",
+        "reuse": "Turn into cleaning rags or pillow stuffing.Reusing old clothes is a practical and sustainable way to reduce textile waste and give worn-out garments a second life. One of the simplest methods is to turn them into cleaning rags. Soft cotton t-shirts, pajamas, or towels are especially effective for dusting furniture, wiping windows, or cleaning up spills. This not only saves money on buying disposable paper towels but also reduces household waste.Another creative reuse is converting old clothes into pillow stuffing. Instead of throwing away clothes that are too damaged to donate or wear, you can cut them into small pieces and use them to fill throw pillows, pet beds, or even plush toys. This gives your home items a personalized, eco-friendly touch while eliminating the need for synthetic stuffing.Additionally, old clothes can be used for craft projects, quilts, reusable shopping bags, or even patchwork designs on other garments. Reusing fabric in these ways contributes to a circular lifestyle and minimizes the environmental impact of the fast fashion industry.",
+        "images": [
+          { "url": "https://www.treehugger.com/thmb/aGkcy2Sf4NoNvijIdqW58iJP3dc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1279536193-562c54900c0f4813b5f23d83b61c3bca.jpg", "label": "Clothes Recycling" },
+          { "url": "https://media.istockphoto.com/id/466294120/photo/white-pillow-display-cotton-wool-inside.jpg?s=612x612&w=0&k=20&c=cJ9CDPWYzLFs48mTxqrl6WjTLzOJlHfQs7y2aqQclnM=", "label": "Clothes Reuse" }
+        ]
+      },
+      "Paper": {
+        "recycle": "Place in the paper recycling bin.",
+        "reuse": "Use for origami, scrapbooking, or as gift wrap.Paper is versatile and can be used for origami, scrapbooking, or as gift wrap. In origami, paper is folded into intricate shapes, often using square sheets in various colors and patterns. This craft promotes patience, attention to detail, and creativity. Scrapbooking involves decorating pages with photos, journaling, and mementos, using textured or patterned paper to enhance the visual appeal of the album. Scrapbooks often tell a story and serve as a personal keepsake for important events. Gift wrap, often printed with festive designs, is used to cover presents, adding an extra layer of excitement to the gift-giving experience. Customizing gift wrap with ribbons, tags, or other decorations makes presents even more thoughtful. Whether for creating art, preserving memories, or making gifts more special, paper serves as an essential medium in many creative projects. Additionally, paper can be repurposed in eco-friendly ways, reducing waste and adding a sustainable element to crafts.",
+        "images": [
+          { "url": "https://m.media-amazon.com/images/I/818Py5DHdYL.jpg", "label": "Paper Recycling" },
+          { "url": "https://i.ytimg.com/vi/cAB74I_RAAU/hqdefault.jpg", "label": "Paper Reuse" }
+        ]
+      },
+      "Glass Bottle": {
+        "recycle": "Rinse and place it in the glass recycling bin.",
+        "reuse": "Use as a vase, candle holder, or decorative piece.A glass bottle can be creatively repurposed as a vase, candle holder, or decorative piece. As a vase, it adds a rustic or modern touch to any room, perfect for displaying flowers or greenery. The sleek and transparent nature of glass allows the colors of flowers to stand out, making it a versatile decor item. When used as a candle holder, it can create a cozy ambiance by holding a candle inside or around the neck of the bottle, with the glass reflecting the light. Glass bottles also serve as unique decorative items, whether left clear for a minimalist look or painted and adorned for a more personalized touch. They can be arranged in groups of varying sizes for a stylish centerpiece or placed individually on shelves. Adding decorative elements such as twine, beads, or lights can give them a more bohemian or vintage feel. Their versatility and aesthetic appeal make them a popular choice for DIY projects and home decor, adding a creative and eco-friendly element to your space.",
+        "images": [
+          { "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsi443hqBs8ZjgrVvrMOAojaBKjuWw8MBgQQ&s", "label": "Glass Bottle Recycling" },
+          { "url": "https://images.jdmagicbox.com/quickquotes/images_main/-2nlllgds.jpg", "label": "Glass Bottle Reuse" }
+        ]
+      },
+      "Cardboard Box": {
+        "recycle": "Flatten and place in the cardboard recycling bin.",
+        "reuse": "Use for organizing or as a storage box.A cardboard box is a practical solution for organizing or serving as a storage box. It can be used to neatly store items such as books, clothes, or office supplies, helping to keep spaces tidy and clutter-free. Lightweight yet durable, cardboard boxes are easy to stack and label, making them ideal for both home and office organization. They come in various sizes, which makes them versatile for different storage needs, from small knick-knacks to large household items. They can be customized by decorating with paint, paper, or fabric to fit your personal style, turning them into attractive storage solutions. Cardboard boxes are also eco-friendly, as they are recyclable, and their versatility makes them useful for various purposes, from moving items to crafting projects. In addition, they are a cost-effective storage option, readily available, and easy to replace when needed. Cardboard boxes can also be repurposed for other uses, like creating DIY furniture or creative wall decor.",
+        "images": [
+          { "url": "https://media.licdn.com/dms/image/v2/D5612AQFtA929BVOHdw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1715922273494?e=2147483647&v=beta&t=AX26frkDAE7LwHPcAiOjSXjE-CCzweRzfXuHZIrpkCg", "label": "Cardboard Box Recycling" },
+          { "url": "https://i.ytimg.com/vi/jhynwBl95YE/maxresdefault.jpg", "label": "Cardboard Box Reuse" }
+        ]
+      },
+      "Aluminum Can": {
+        "recycle": "Rinse and place in the aluminum recycling bin.",
+        "reuse": "Use as a plant pot, coin holder, or pencil holder.An aluminium can can be creatively repurposed as a plant pot, coin holder, or pencil holder. As a plant pot, it makes for a stylish and eco-friendly container, perfect for small indoor plants or herbs, and can easily be personalized with paint or decorations. It also serves as a coin holder, keeping loose change neatly organized, and its durable material makes it a sturdy choice for everyday use. When used as a pencil holder, the aluminium can provides a practical and compact storage solution for office supplies, keeping your desk tidy. Its lightweight yet sturdy nature makes it versatile, and its metallic finish adds a modern touch to any space. Aluminium cans can also be stacked or grouped together for creative storage solutions, making them ideal for organizing smaller items. By adding holes to the bottom, they can be turned into a functional plant pot with proper drainage. For DIY enthusiasts, these cans can be upcycled into creative home decor, such as candle holders or wall art. This simple, recyclable material offers endless possibilities for crafting, organization, and decoration.",
+        "images": [
+          { "url": "https://www.countryclean.ie/uploads/filemanager/source/cc/img/inner_page_img/pict4.png", "label": "Aluminum Can Recycling" },
+          { "url": "https://i.ytimg.com/vi/JY6F-htaUXs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAKaNP4x2qf5FdSvGLbatE5B3yPoQ", "label": "Aluminum Can Reuse" }
+        ]
+      },
+      "Old T-Shirt": {
+        "recycle": "Donate to charity or use as a rag.",
+        "reuse": "Turn into a tote bag or pillow cover.An old t-shirt can be creatively repurposed into a tote bag or pillow cover. To make a tote bag, you can cut off the sleeves, shape the bottom, and sew or tie the edges together, creating an eco-friendly, stylish bag perfect for everyday use. For a pillow cover, simply cut the shirt to the size of a pillow insert and sew or knot the edges, turning the t-shirt into a unique, cozy cover. These simple DIY projects are not only budget-friendly but also a great way to reduce waste. You can personalize the items with fabric paint, patches, or embroidery, giving them a custom touch. This is a fun and practical way to upcycle old clothing while adding a personal flair to your home or accessories.",
+        "images": [
+          { "url": "data:image/jpeg;base64,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", "label": "Old T-Shirt Recycling" },
+          { "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTn00-OUxMwiHEgADVwu_x2CvUxFl9PFlIQQ&s", "label": "Old T-Shirt Reuse" }
+        ]
+      },
+      "Old Shoes": {
+        "recycle": "Donate or take to a recycling center.",
+        "reuse": "Use as planters or as a quirky display.Old shoes can be creatively repurposed as planters or quirky displays. By filling them with soil and planting flowers, succulents, or herbs, they become unique, eco-friendly planters that add character to any garden or home. Their worn-out appearance can give them a rustic charm, making them perfect for an eclectic look. Alternatively, old shoes can be used as quirky displays by placing them on shelves or windowsills, filled with decorative items like fairy lights, pebbles, or artificial flowers. You can also personalize them by painting the shoes with vibrant colors, patterns, or designs to match your style. For added fun, use shoes with distinctive features like boots or sandals to create a whimsical touch. These upcycled shoes can also serve as conversation starters, drawing attention with their unexpected and creative use. This simple upcycling idea not only adds personality to your space but also helps reduce waste in a fun and creative way.",
+        "images": [
+          { "url": "https://snibbs.co/cdn/shop/articles/How_to_Recycle_Old_Shoes.jpg?v=1674474677", "label": "Old Shoes Recycling" },
+          { "url": "https://themicrogardener.com/wp-content/uploads/2011/06/Kids-rainboot-planters.jpg", "label": "Old Shoes Reuse" }
+        ]
+      },
+      "Egg Carton": {
+        "recycle": "Place in the paper recycling bin.",
+        "reuse": "Use for organizing small items or as a craft project.An egg carton can be repurposed for organizing small items or as a fun craft project. It’s perfect for storing buttons, beads, screws, or jewelry, keeping these tiny items neat and easily accessible. For a craft project, you can transform the egg carton into unique creations like flowers, animals, or even decorative wreaths by cutting and painting the individual sections. The sturdy, compartmentalized design of an egg carton makes it a versatile and eco-friendly option for organization or creativity. Whether for functional storage or crafting, it offers a simple and sustainable way to repurpose an everyday item. Egg cartons can also be used as seed starters for gardening, where each section can hold a small amount of soil and seeds for growing plants like herbs or flowers. Additionally, they can be used for organizing arts and crafts supplies, such as crayons, markers, or small craft tools. For those interested in upcycling, egg cartons can even serve as a material for making homemade bird feeders, offering an innovative way to reuse and recycle. With a little creativity, egg cartons can become a handy and decorative addition to any home or craft space.",
+        "images": [
+          { "url": "https://www.treehugger.com/thmb/LYvk5BmU8fft22v4VXdWkEJ8jcw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/recycle-symbol-on-egg-carton-176822117-02de8ca56069455494f571c9f578e43a.jpg", "label": "Egg Carton Recycling" },
+          { "url": "https://www.thebestideasforkids.com/wp-content/uploads/2023/05/Egg-Carton-Jungle-Cover.jpg", "label": "Egg Carton Reuse" }
+        ]
+      },
+      "Plastic Bags": {
+        "recycle": "Take to a plastic recycling drop-off site.",
+        "reuse": "Use as trash bags or for organizing items.Plastic bags can be repurposed in various ways, making them both practical and eco-friendly. They are commonly used as trash bags, offering a convenient and inexpensive option for disposing of waste in kitchens, bathrooms, or offices. Due to their lightweight and durable nature, plastic bags are also great for organizing small items around the house. They can be used to store shoes, toys, or craft supplies, keeping things neat and easily accessible. For those with a creative side, plastic bags can be upcycled into DIY projects, like woven baskets or even mats. Additionally, they can serve as protective liners for storage bins, ensuring items stay clean and dry. With a bit of creativity, plastic bags can serve multiple functions, reducing waste and helping to keep your space organized.",
+        "images": [
+          { "url": "https://preview.redd.it/xmvm70jj4ty61.jpg?width=640&crop=smart&auto=webp&s=5b59c03440098bfff62c5104a1cd8e19d5312dd8", "label": "Plastic Bags Recycling" },
+          { "url": "https://content.instructables.com/F5R/R5TL/JK2UH6WI/F5RR5TLJK2UH6WI.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150", "label": "Plastic Bags Reuse" }
+        ]
+      }
+    };
+
+    // Event listener for dropdown selection change
+    document.getElementById('itemSelect').addEventListener('change', function () {
+      const selectedItem = this.value;
+      const item = itemsData[selectedItem];
+      const resultDiv = document.getElementById('result');
+      
+      if (item) {
+        let html = `
+          <h2>${selectedItem}</h2>
+          <p><strong>Recycle:</strong> ${item.recycle}</p>
+          <p><strong>Reuse:</strong> ${item.reuse}</p>
+          <div class="image-gallery">
+            ${item.images.map(img => `
+              <div class="image-card">
+                <img src="${img.url}" alt="${img.label}" class="item-img" />
+                <p class="label">${img.label}</p>
+              </div>
+            `).join('')}
+          </div>
+        `;
+        resultDiv.innerHTML = html;
+      } else {
+        resultDiv.innerHTML = '<p>Please select an item.</p>';
+      }
+    });
+  </script>
+
+</body>
+</html>
